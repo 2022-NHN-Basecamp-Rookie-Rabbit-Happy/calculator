@@ -56,5 +56,6 @@ int multi(int a, int b)
 int div(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	if(b == 0) return -1; //나누는 수가 0일경우 -1 return.
+	return a/b;
 }
