@@ -36,20 +36,21 @@ int main(int argc, char* argv[])
  
 int add(int a, int b)
 {
-	//TODO implementation
-	return 0;
+	int result = a + b;
+	return result;
 }
  
 int sub(int a, int b)
 {
-	//TODO implementation
-	return 0;
+	if ( a > b ) {
+		return a - b;
+	}
+	return b - a;
 }
  
 int multi(int a, int b)
 {
-	//TODO implementation
-	return 0;
+	return a*b;
 }
  
 int div(int a, int b)
